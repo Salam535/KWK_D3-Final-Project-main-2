@@ -12,6 +12,8 @@
 		554AE429286BF9B00012C7BA /* JournalViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 554AE428286BF9B00012C7BA /* JournalViewController.swift */; };
 		554AE42B286BF9FF0012C7BA /* HelpResourcesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 554AE42A286BF9FF0012C7BA /* HelpResourcesViewController.swift */; };
 		554AE42D286C017F0012C7BA /* MathViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 554AE42C286C017F0012C7BA /* MathViewController.swift */; };
+		555115B9286DFAAD0012FB55 /* NoteViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 555115B8286DFAAD0012FB55 /* NoteViewController.swift */; };
+		555115BB286DFABB0012FB55 /* EntryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 555115BA286DFABB0012FB55 /* EntryViewController.swift */; };
 		5566627F286BC00A0075EC2E /* OptionsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5566627E286BC00A0075EC2E /* OptionsViewController.swift */; };
 		690CB3D0286BB37100960F09 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 690CB3CF286BB37100960F09 /* AppDelegate.swift */; };
 		690CB3D2286BB37100960F09 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 690CB3D1286BB37100960F09 /* SceneDelegate.swift */; };
@@ -53,6 +55,8 @@
 		554AE428286BF9B00012C7BA /* JournalViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JournalViewController.swift; sourceTree = "<group>"; };
 		554AE42A286BF9FF0012C7BA /* HelpResourcesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HelpResourcesViewController.swift; sourceTree = "<group>"; };
 		554AE42C286C017F0012C7BA /* MathViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MathViewController.swift; sourceTree = "<group>"; };
+		555115B8286DFAAD0012FB55 /* NoteViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoteViewController.swift; sourceTree = "<group>"; };
+		555115BA286DFABB0012FB55 /* EntryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EntryViewController.swift; sourceTree = "<group>"; };
 		5566627E286BC00A0075EC2E /* OptionsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OptionsViewController.swift; sourceTree = "<group>"; };
 		690CB3CC286BB37100960F09 /* KWK_D3 Final Project.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "KWK_D3 Final Project.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		690CB3CF286BB37100960F09 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -129,6 +133,9 @@
 				690CB3D1286BB37100960F09 /* SceneDelegate.swift */,
 				690CB3D3286BB37100960F09 /* ViewController.swift */,
 				690CB3D5286BB37100960F09 /* Main.storyboard */,
+				555115B8286DFAAD0012FB55 /* NoteViewController.swift */,
+				555115BA286DFABB0012FB55 /* EntryViewController.swift */,
+				554AE428286BF9B00012C7BA /* JournalViewController.swift */,
 				554AE42C286C017F0012C7BA /* MathViewController.swift */,
 				FE9E8C9C286CD25E00335D37 /* EnglishViewController.swift */,
 				FE9E8C9E286CD52E00335D37 /* ScienceViewController.swift */,
@@ -137,7 +144,6 @@
 				FE9E8CA4286D077100335D37 /* ArtViewController.swift */,
 				FE9E8CA6286D0E5800335D37 /* LifeWorkViewController.swift */,
 				554AE42A286BF9FF0012C7BA /* HelpResourcesViewController.swift */,
-				554AE428286BF9B00012C7BA /* JournalViewController.swift */,
 				554AE426286BF9900012C7BA /* StudyPlanViewController.swift */,
 				554AE424286BF94B0012C7BA /* ToDoViewController.swift */,
 				5566627E286BC00A0075EC2E /* OptionsViewController.swift */,
@@ -302,10 +308,12 @@
 				690CB3D4286BB37100960F09 /* ViewController.swift in Sources */,
 				690CB3DA286BB37100960F09 /* KWK_D3_Final_Project.xcdatamodeld in Sources */,
 				FE9E8CA1286CD87100335D37 /* HistoryViewController.swift in Sources */,
+				555115BB286DFABB0012FB55 /* EntryViewController.swift in Sources */,
 				690CB3D0286BB37100960F09 /* AppDelegate.swift in Sources */,
 				690CB3D2286BB37100960F09 /* SceneDelegate.swift in Sources */,
 				554AE425286BF94B0012C7BA /* ToDoViewController.swift in Sources */,
 				FE9E8C9F286CD52E00335D37 /* ScienceViewController.swift in Sources */,
+				555115B9286DFAAD0012FB55 /* NoteViewController.swift in Sources */,
 				FE9E8CA7286D0E5800335D37 /* LifeWorkViewController.swift in Sources */,
 				FE9E8CA5286D077100335D37 /* ArtViewController.swift in Sources */,
 				554AE42D286C017F0012C7BA /* MathViewController.swift in Sources */,
