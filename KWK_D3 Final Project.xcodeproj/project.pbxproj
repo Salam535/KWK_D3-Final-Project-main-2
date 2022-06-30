@@ -24,6 +24,10 @@
 		690CB3DF286BB37500960F09 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 690CB3DD286BB37500960F09 /* LaunchScreen.storyboard */; };
 		690CB3EA286BB37500960F09 /* KWK_D3_Final_ProjectTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 690CB3E9286BB37500960F09 /* KWK_D3_Final_ProjectTests.swift */; };
 		690CB3F5286BB37500960F09 /* KWK_D3_Final_ProjectUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 690CB3F4286BB37500960F09 /* KWK_D3_Final_ProjectUITests.swift */; };
+		C0728803286E264A00C1F5C4 /* ToDo.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0728802286E264A00C1F5C4 /* ToDo.swift */; };
+		C0728805286E268100C1F5C4 /* AddToDoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0728804286E268100C1F5C4 /* AddToDoViewController.swift */; };
+		C0728807286E269A00C1F5C4 /* CompleteToDoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0728806286E269A00C1F5C4 /* CompleteToDoViewController.swift */; };
+		C0728809286E26B300C1F5C4 /* ToDoTable2TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0728808286E26B300C1F5C4 /* ToDoTable2TableViewController.swift */; };
 		FE9E8C9D286CD25E00335D37 /* EnglishViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE9E8C9C286CD25E00335D37 /* EnglishViewController.swift */; };
 		FE9E8C9F286CD52E00335D37 /* ScienceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE9E8C9E286CD52E00335D37 /* ScienceViewController.swift */; };
 		FE9E8CA1286CD87100335D37 /* HistoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE9E8CA0286CD87100335D37 /* HistoryViewController.swift */; };
@@ -73,6 +77,10 @@
 		690CB3F0286BB37500960F09 /* KWK_D3 Final ProjectUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "KWK_D3 Final ProjectUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		690CB3F4286BB37500960F09 /* KWK_D3_Final_ProjectUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KWK_D3_Final_ProjectUITests.swift; sourceTree = "<group>"; };
 		690CB3F6286BB37500960F09 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C0728802286E264A00C1F5C4 /* ToDo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDo.swift; sourceTree = "<group>"; };
+		C0728804286E268100C1F5C4 /* AddToDoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddToDoViewController.swift; sourceTree = "<group>"; };
+		C0728806286E269A00C1F5C4 /* CompleteToDoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CompleteToDoViewController.swift; sourceTree = "<group>"; };
+		C0728808286E26B300C1F5C4 /* ToDoTable2TableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDoTable2TableViewController.swift; sourceTree = "<group>"; };
 		FE9E8C9C286CD25E00335D37 /* EnglishViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnglishViewController.swift; sourceTree = "<group>"; };
 		FE9E8C9E286CD52E00335D37 /* ScienceViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScienceViewController.swift; sourceTree = "<group>"; };
 		FE9E8CA0286CD87100335D37 /* HistoryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoryViewController.swift; sourceTree = "<group>"; };
@@ -151,6 +159,10 @@
 				690CB3DD286BB37500960F09 /* LaunchScreen.storyboard */,
 				690CB3E0286BB37500960F09 /* Info.plist */,
 				690CB3D8286BB37100960F09 /* KWK_D3_Final_Project.xcdatamodeld */,
+				C0728802286E264A00C1F5C4 /* ToDo.swift */,
+				C0728804286E268100C1F5C4 /* AddToDoViewController.swift */,
+				C0728806286E269A00C1F5C4 /* CompleteToDoViewController.swift */,
+				C0728808286E26B300C1F5C4 /* ToDoTable2TableViewController.swift */,
 			);
 			path = "KWK_D3 Final Project";
 			sourceTree = "<group>";
@@ -306,14 +318,18 @@
 				554AE429286BF9B00012C7BA /* JournalViewController.swift in Sources */,
 				FE9E8C9D286CD25E00335D37 /* EnglishViewController.swift in Sources */,
 				690CB3D4286BB37100960F09 /* ViewController.swift in Sources */,
+				C0728803286E264A00C1F5C4 /* ToDo.swift in Sources */,
 				690CB3DA286BB37100960F09 /* KWK_D3_Final_Project.xcdatamodeld in Sources */,
 				FE9E8CA1286CD87100335D37 /* HistoryViewController.swift in Sources */,
 				555115BB286DFABB0012FB55 /* EntryViewController.swift in Sources */,
 				690CB3D0286BB37100960F09 /* AppDelegate.swift in Sources */,
 				690CB3D2286BB37100960F09 /* SceneDelegate.swift in Sources */,
 				554AE425286BF94B0012C7BA /* ToDoViewController.swift in Sources */,
+				C0728807286E269A00C1F5C4 /* CompleteToDoViewController.swift in Sources */,
 				FE9E8C9F286CD52E00335D37 /* ScienceViewController.swift in Sources */,
 				555115B9286DFAAD0012FB55 /* NoteViewController.swift in Sources */,
+				C0728809286E26B300C1F5C4 /* ToDoTable2TableViewController.swift in Sources */,
+				C0728805286E268100C1F5C4 /* AddToDoViewController.swift in Sources */,
 				FE9E8CA7286D0E5800335D37 /* LifeWorkViewController.swift in Sources */,
 				FE9E8CA5286D077100335D37 /* ArtViewController.swift in Sources */,
 				554AE42D286C017F0012C7BA /* MathViewController.swift in Sources */,
