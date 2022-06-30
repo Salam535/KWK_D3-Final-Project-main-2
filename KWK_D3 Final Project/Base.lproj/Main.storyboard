@@ -619,7 +619,7 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <tableView hidden="YES" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="-1" estimatedSectionHeaderHeight="-1" sectionFooterHeight="-1" estimatedSectionFooterHeight="-1" translatesAutoresizingMaskIntoConstraints="NO" id="WpQ-ej-jg1">
-                                <rect key="frame" x="15" y="58" width="365" height="728"/>
+                                <rect key="frame" x="15" y="58" width="365" height="654"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                 <prototypes>
@@ -649,6 +649,15 @@
                                     </tableViewCell>
                                 </prototypes>
                             </tableView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="834-7I-tf3">
+                                <rect key="frame" x="0.0" y="709" width="113" height="60"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="back"/>
+                                <connections>
+                                    <segue destination="bqQ-RU-VGr" kind="show" id="rjX-rZ-aaH"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="O4E-8W-Lso"/>
                         <color key="backgroundColor" red="0.87113410030000005" green="0.9445628157" blue="0.93192072540000004" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
@@ -695,7 +704,7 @@
         <!--Entry View Controller-->
         <scene sceneID="ZbQ-Nq-lbc">
             <objects>
-                <viewController storyboardIdentifier="new" id="V60-Uh-OE9" customClass="EntryViewController" customModule="notesTest" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="new" id="V60-Uh-OE9" customClass="EntryViewController" customModule="KWK_D3_Final_Project" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="EKt-e9-t3c">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -748,7 +757,7 @@
         <!--Note View Controller-->
         <scene sceneID="szB-9T-AZ5">
             <objects>
-                <viewController storyboardIdentifier="note" id="bV7-G6-LFi" customClass="NoteViewController" customModule="notesTest" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="note" id="bV7-G6-LFi" customClass="NoteViewController" customModule="KWK_D3_Final_Project" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="DDg-py-BGG">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -784,7 +793,7 @@
     </scenes>
     <inferredMetricsTieBreakers>
         <segue reference="Qhr-Q6-cbZ"/>
-        <segue reference="TQr-OS-nbZ"/>
+        <segue reference="rjX-rZ-aaH"/>
     </inferredMetricsTieBreakers>
     <resources>
         <image name="1200px-Tom_Nook_NH" width="1200" height="1970"/>
