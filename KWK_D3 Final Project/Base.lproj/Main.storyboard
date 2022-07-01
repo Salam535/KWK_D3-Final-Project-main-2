@@ -14,7 +14,7 @@
             <objects>
                 <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="KWK_D3_Final_Project" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="hookED" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Uma-wo-qhV">
@@ -91,7 +91,7 @@
             <objects>
                 <viewController id="bqQ-RU-VGr" customClass="OptionsViewController" customModule="KWK_D3_Final_Project" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="C2T-Th-59z">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="T9E-my-QOk">
@@ -232,7 +232,7 @@
             <objects>
                 <viewController id="M04-Ki-KSa" customClass="StudyPlanViewController" customModule="KWK_D3_Final_Project" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="02K-21-rn0">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="speech bubble" translatesAutoresizingMaskIntoConstraints="NO" id="UCg-nR-J6W">
@@ -322,7 +322,7 @@
             <objects>
                 <viewController id="yde-Rm-bwP" customClass="DayPlanViewController" customModule="KWK_D3_Final_Project" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="LWU-1V-oa1">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="1dS-Wc-zry">
@@ -466,7 +466,7 @@
             <objects>
                 <viewController id="ZbV-vB-pbv" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="7CK-QA-c63">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="NSwitch_AnimalCrossingNewHorizons_Overview_Gataway_Chars_Mob" translatesAutoresizingMaskIntoConstraints="NO" id="hMW-Mw-1pD">
@@ -556,7 +556,7 @@
             <objects>
                 <viewController id="9Lc-Ai-B6W" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="LDt-N7-lhs">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="NSwitch_AnimalCrossingNewHorizons_Overview_HPPIntro_Chars" translatesAutoresizingMaskIntoConstraints="NO" id="Lhk-ik-DHR">
@@ -661,7 +661,7 @@
             <objects>
                 <viewController id="pua-u1-9Cp" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="BJR-EN-tew">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="vs8-HZ-Va9">
@@ -1374,9 +1374,15 @@ StudyPool
             <objects>
                 <tableViewController id="g16-Sz-NAk" customClass="ToDoTable2TableViewController" customModule="KWK_D3_Final_Project" customModuleProvider="target" sceneMemberID="viewController">
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="-1" estimatedSectionHeaderHeight="-1" sectionFooterHeight="-1" estimatedSectionFooterHeight="-1" id="AWV-Jj-aXg" customClass="ToDoTable">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <button key="tableFooterView" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" id="33Z-q1-2bF">
+                            <rect key="frame" x="0.0" y="110.5" width="414" height="44"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <state key="normal" title="Button"/>
+                            <buttonConfiguration key="configuration" style="plain" title=""/>
+                        </button>
                         <prototypes>
                             <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="reuseIdentifier" id="c8d-jd-5I2" userLabel="reuseIdentifier">
                                 <rect key="frame" x="0.0" y="44.5" width="414" height="43.5"/>
@@ -1392,13 +1398,20 @@ StudyPool
                             <outlet property="delegate" destination="g16-Sz-NAk" id="ck3-Qs-qoh"/>
                         </connections>
                     </tableView>
+                    <toolbarItems/>
                     <navigationItem key="navigationItem" title="ToDo List" id="Nb3-Yj-aTd">
+                        <barButtonItem key="leftBarButtonItem" title="Back" id="tn4-fg-wxB">
+                            <connections>
+                                <segue destination="bqQ-RU-VGr" kind="show" id="b6K-5J-epX"/>
+                            </connections>
+                        </barButtonItem>
                         <barButtonItem key="rightBarButtonItem" systemItem="add" id="zBK-6C-7uF">
                             <connections>
                                 <segue destination="5RI-FU-p7Q" kind="show" id="TyL-lB-GjP"/>
                             </connections>
                         </barButtonItem>
                     </navigationItem>
+                    <simulatedToolbarMetrics key="simulatedBottomBarMetrics"/>
                     <connections>
                         <segue destination="nex-eE-pRM" kind="show" identifier="moveToComplete" id="Uh1-5x-6Ez"/>
                     </connections>
@@ -1412,7 +1425,7 @@ StudyPool
             <objects>
                 <viewController id="nex-eE-pRM" customClass="CompleteToDoViewController" customModule="KWK_D3_Final_Project" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="a3r-fm-mbS">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="To Do Name" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bpR-Q2-Hgs">
@@ -1449,7 +1462,7 @@ StudyPool
             <objects>
                 <viewController id="5RI-FU-p7Q" customClass="AddToDoViewController" customModule="KWK_D3_Final_Project" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="NIm-5X-Rmc">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="What do you need to do?" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="GxR-du-VHs">
@@ -1505,7 +1518,7 @@ StudyPool
                 <navigationController id="kZF-9F-P7f" sceneMemberID="viewController">
                     <navigationItem key="navigationItem" id="UfQ-W5-06N"/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="Zwj-t2-CEz">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="56"/>
+                        <rect key="frame" x="0.0" y="44" width="414" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
                     </navigationBar>
                     <connections>
@@ -1523,17 +1536,6 @@ StudyPool
                     <view key="view" contentMode="scaleToFill" id="uDr-wL-naf">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2XZ-ga-9Ba">
-                                <rect key="frame" x="43" y="682" width="94" height="32"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                <state key="normal" title="back"/>
-                                <connections>
-                                    <segue destination="bqQ-RU-VGr" kind="show" id="4CI-P3-Hnd"/>
-                                </connections>
-                            </button>
-                        </subviews>
                         <viewLayoutGuide key="safeArea" id="bHS-YC-6vX"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     </view>
@@ -1548,11 +1550,11 @@ StudyPool
             <objects>
                 <viewController id="7xi-Rp-eOi" customClass="JournalViewController" customModule="KWK_D3_Final_Project" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" restorationIdentifier="notes" id="ICM-fX-UPJ">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="No Entries Yet" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Zgi-el-7ap">
-                                <rect key="frame" x="153.5" y="410.5" width="107.5" height="21"/>
+                                <rect key="frame" x="153.5" y="437.5" width="107.5" height="21"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
@@ -1628,7 +1630,7 @@ StudyPool
                     <toolbarItems/>
                     <navigationItem key="navigationItem" id="4Xa-ys-Rn8"/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="sn4-W9-A5W">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="56"/>
+                        <rect key="frame" x="0.0" y="44" width="414" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
                     </navigationBar>
                     <nil name="viewControllers"/>
@@ -1860,7 +1862,7 @@ StudyPool
         <segue reference="J87-jr-xxl"/>
         <segue reference="QPb-3I-b10"/>
         <segue reference="nPe-MF-sKh"/>
-        <segue reference="YWQ-P4-lqw"/>
+        <segue reference="b6K-5J-epX"/>
     </inferredMetricsTieBreakers>
     <resources>
         <image name="1200px-Tom_Nook_NH" width="1200" height="1970"/>
