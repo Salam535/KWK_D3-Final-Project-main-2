@@ -1446,7 +1446,7 @@ StudyPool
                             </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="Ci1-5v-pkR"/>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <color key="backgroundColor" red="0.93845058930000003" green="1" blue="0.99297798479999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                     </view>
                     <navigationItem key="navigationItem" id="Xvl-E3-LsQ"/>
                     <connections>
@@ -1500,7 +1500,7 @@ StudyPool
                             </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="iEM-bs-ldZ"/>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <color key="backgroundColor" red="0.93845058930000003" green="1" blue="0.99297798479999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                     </view>
                     <navigationItem key="navigationItem" id="bHw-NG-nyA"/>
                     <connections>
@@ -1528,22 +1528,6 @@ StudyPool
                 <placeholder placeholderIdentifier="IBFirstResponder" id="sfr-zg-fDM" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="-974" y="-812"/>
-        </scene>
-        <!--To Do View Controller-->
-        <scene sceneID="cYF-bq-E1h">
-            <objects>
-                <viewController id="c1X-rv-kAo" customClass="ToDoViewController" customModule="KWK_D3_Final_Project" customModuleProvider="target" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="uDr-wL-naf">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <viewLayoutGuide key="safeArea" id="bHS-YC-6vX"/>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
-                    </view>
-                    <navigationItem key="navigationItem" id="yx4-xR-LEb"/>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="Syk-33-cfL" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="701" y="-721"/>
         </scene>
         <!--Daily Diary-->
         <scene sceneID="LB8-bV-2bT">
