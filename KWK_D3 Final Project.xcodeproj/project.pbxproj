@@ -37,7 +37,6 @@
 		FE9E8C9F286CD52E00335D37 /* ScienceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE9E8C9E286CD52E00335D37 /* ScienceViewController.swift */; };
 		FE9E8CA1286CD87100335D37 /* HistoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE9E8CA0286CD87100335D37 /* HistoryViewController.swift */; };
 		FE9E8CA3286CE5C600335D37 /* LOTEViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE9E8CA2286CE5C600335D37 /* LOTEViewController.swift */; };
-		FE9E8CA5286D077100335D37 /* ArtViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE9E8CA4286D077100335D37 /* ArtViewController.swift */; };
 		FE9E8CA7286D0E5800335D37 /* LifeWorkViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE9E8CA6286D0E5800335D37 /* LifeWorkViewController.swift */; };
 /* End PBXBuildFile section */
 
@@ -95,7 +94,6 @@
 		FE9E8C9E286CD52E00335D37 /* ScienceViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScienceViewController.swift; sourceTree = "<group>"; };
 		FE9E8CA0286CD87100335D37 /* HistoryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoryViewController.swift; sourceTree = "<group>"; };
 		FE9E8CA2286CE5C600335D37 /* LOTEViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LOTEViewController.swift; sourceTree = "<group>"; };
-		FE9E8CA4286D077100335D37 /* ArtViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArtViewController.swift; sourceTree = "<group>"; };
 		FE9E8CA6286D0E5800335D37 /* LifeWorkViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LifeWorkViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -164,7 +162,6 @@
 				FE9E8C9E286CD52E00335D37 /* ScienceViewController.swift */,
 				FE9E8CA0286CD87100335D37 /* HistoryViewController.swift */,
 				FE9E8CA2286CE5C600335D37 /* LOTEViewController.swift */,
-				FE9E8CA4286D077100335D37 /* ArtViewController.swift */,
 				FE9E8CA6286D0E5800335D37 /* LifeWorkViewController.swift */,
 				554AE42A286BF9FF0012C7BA /* HelpResourcesViewController.swift */,
 				554AE426286BF9900012C7BA /* StudyPlanViewController.swift */,
@@ -351,7 +348,6 @@
 				55778F86286EBE6D0055384F /* TimeManagementViewController.swift in Sources */,
 				55778F8A286EC20D0055384F /* QuotesViewController.swift in Sources */,
 				FE9E8CA7286D0E5800335D37 /* LifeWorkViewController.swift in Sources */,
-				FE9E8CA5286D077100335D37 /* ArtViewController.swift in Sources */,
 				554AE42D286C017F0012C7BA /* MathViewController.swift in Sources */,
 				5566627F286BC00A0075EC2E /* OptionsViewController.swift in Sources */,
 				554AE42B286BF9FF0012C7BA /* HelpResourcesViewController.swift in Sources */,
