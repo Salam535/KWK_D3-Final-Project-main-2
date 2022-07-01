@@ -119,7 +119,7 @@
                                 <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <state key="normal" title="To-Do List"/>
                                 <connections>
-                                    <segue destination="kZF-9F-P7f" kind="show" id="mmf-hk-6Cc"/>
+                                    <segue destination="kZF-9F-P7f" kind="show" id="ULD-gl-96m"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="mLG-LV-rwk">
@@ -197,7 +197,7 @@
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Math!" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tTi-EO-ege">
                                 <rect key="frame" x="127" y="72" width="267" height="74"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" name="Noteworthy-Bold" family="Noteworthy" pointSize="45"/>
+                                <fontDescription key="fontDescription" name="Futura-MediumItalic" family="Futura" pointSize="45"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
@@ -214,10 +214,24 @@
                                 <rect key="frame" x="136" y="507" width="305" height="355"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Untitled_drawing-removebg-preview" translatesAutoresizingMaskIntoConstraints="NO" id="ygQ-uZ-BHS">
-                                <rect key="frame" x="-198" y="49" width="842" height="758"/>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Screen_Shot_2022-06-30_at_10.06.14_PM-removebg-preview" translatesAutoresizingMaskIntoConstraints="NO" id="yJe-9d-pc6">
+                                <rect key="frame" x="20" y="154" width="394" height="372"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="7" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="BQf-2U-KzU">
+                                <rect key="frame" x="97" y="256" width="241" height="168"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <string key="text">Khan Academy
+The Organic Chemistry Tutor
+Desmos
+PhotoMath
+Mathway
+Brainly
+</string>
+                                <fontDescription key="fontDescription" name="DINAlternate-Bold" family="DIN Alternate" pointSize="20"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="d7M-Iu-pEB"/>
                         <color key="backgroundColor" red="0.85255189447257373" green="1" blue="0.94763932450255639" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
@@ -343,6 +357,64 @@
             </objects>
             <point key="canvasLocation" x="736.23188405797111" y="859.82142857142856"/>
         </scene>
+        <!--Time Management View Controller-->
+        <scene sceneID="uBN-9u-CMf">
+            <objects>
+                <viewController id="EUe-NM-L7F" customClass="TimeManagementViewController" customModule="KWK_D3_Final_Project" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="drc-YI-nbM">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Time Management Tips" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="qQJ-KE-wli">
+                                <rect key="frame" x="73" y="58" width="257" height="86"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.57374526518181823" green="0.47725575505898876" blue="0.45878839255541726" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <fontDescription key="fontDescription" name="BradleyHandITCTT-Bold" family="Bradley Hand" pointSize="30"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="16" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="RFZ-wV-g8D">
+                                <rect key="frame" x="32" y="190" width="365" height="401"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <string key="text">1. Figure out how you’re currently spending your time.
+2. Create a daily schedule—and stick with it.
+3. Prioritize wisely.
+4. Group similar tasks together.
+5. Avoid the urge to multitask.
+6. Assign time limits to tasks.
+7. Build in buffers.
+8. Learn to say no.
+9. Get organized.
+10. Eliminate Distractions
+</string>
+                                <fontDescription key="fontDescription" name="AvenirNext-Regular" family="Avenir Next" pointSize="21"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Screen_Shot_2022-06-30_at_10.39.01_PM-removebg-preview" translatesAutoresizingMaskIntoConstraints="NO" id="khh-PD-XX6">
+                                <rect key="frame" x="-45" y="599" width="304" height="188"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="LMg-ay-xmH">
+                                <rect key="frame" x="267" y="718" width="104" height="54"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="back"/>
+                                <connections>
+                                    <segue destination="nGJ-SB-5IC" kind="show" id="OMn-Ea-pu6"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="47h-cW-yyr"/>
+                        <color key="backgroundColor" red="1" green="0.90509529217888085" blue="0.92015846879876895" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="D81-TY-FJB"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="sUi-te-xcl" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-2594.202898550725" y="1556.9196428571429"/>
+        </scene>
         <!--Life Work View Controller-->
         <scene sceneID="Cwf-uh-k0h">
             <objects>
@@ -372,9 +444,40 @@
                                     <segue destination="pdS-i7-IY6" kind="show" id="9n3-Ft-RHP"/>
                                 </connections>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="m2c-6M-p83">
+                                <rect key="frame" x="75" y="294" width="253" height="31"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="filled" title="Motivation Tips"/>
+                                <connections>
+                                    <segue destination="hdb-lY-aZ9" kind="show" id="X4s-7t-bHv"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="YDQ-VK-IP2">
+                                <rect key="frame" x="75" y="354" width="253" height="31"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="filled" title="Motivational Quotes"/>
+                                <connections>
+                                    <segue destination="DX7-dx-sEY" kind="show" id="lql-Zm-Jej"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="DU6-OY-saL">
+                                <rect key="frame" x="75" y="230" width="253" height="31"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="filled" title="Time Management Tips"/>
+                                <connections>
+                                    <segue destination="EUe-NM-L7F" kind="show" id="YRO-cT-mL9"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6RB-UN-fA4"/>
                         <color key="backgroundColor" red="1" green="0.81757344117485575" blue="0.58397485283107819" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                     </view>
                     <navigationItem key="navigationItem" id="sc4-E7-Jv2"/>
                 </viewController>
@@ -450,6 +553,22 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Screen_Shot_2022-06-30_at_9.57.55_PM-removebg-preview" translatesAutoresizingMaskIntoConstraints="NO" id="8Oa-iD-t7a">
+                                <rect key="frame" x="-45" y="179" width="550" height="327"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="8" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="YJL-DO-8Df">
+                                <rect key="frame" x="110" y="269" width="206" height="117"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <string key="text">Duolingo
+The Language Tutor
+Senor Junior (Spanish)
+French Learning Hub
+</string>
+                                <fontDescription key="fontDescription" name="DINAlternate-Bold" family="DIN Alternate" pointSize="20"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="qyS-2I-c2z"/>
                         <color key="backgroundColor" red="0.85259831498481842" green="0.88082747373998904" blue="0.92824075890474178" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -486,9 +605,24 @@
                                 </connections>
                             </button>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Ankha_animal_crossing-removebg-preview" translatesAutoresizingMaskIntoConstraints="NO" id="YYO-cD-0AX">
-                                <rect key="frame" x="-29" y="452" width="259" height="348"/>
+                                <rect key="frame" x="-29" y="462" width="259" height="348"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Screen_Shot_2022-06-30_at_9.57.55_PM-removebg-preview" translatesAutoresizingMaskIntoConstraints="NO" id="eYR-qm-bgr">
+                                <rect key="frame" x="41" y="175" width="361" height="309"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="5" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="JkH-Cv-BIp">
+                                <rect key="frame" x="112" y="261" width="178" height="112"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <string key="text">Tom Richey
+Heimler’s History
+Crash Course History
+OverSimplified</string>
+                                <fontDescription key="fontDescription" name="DINAlternate-Bold" family="DIN Alternate" pointSize="20"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="eWa-rf-RUg"/>
                         <color key="backgroundColor" red="1" green="0.93250179119651055" blue="0.72735577872753476" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -528,6 +662,22 @@
                                     <segue destination="pdS-i7-IY6" kind="show" id="vwF-UT-vR6"/>
                                 </connections>
                             </button>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Screen_Shot_2022-06-30_at_10.06.14_PM-removebg-preview" translatesAutoresizingMaskIntoConstraints="NO" id="N60-AY-IHw">
+                                <rect key="frame" x="18" y="113" width="376" height="494"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="8" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gy5-5o-SQW">
+                                <rect key="frame" x="93" y="274" width="220" height="148"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <string key="text">Crash Course Science
+Bozeman Science
+Amoeba Sisters
+The Organic Chemistry Tutor
+</string>
+                                <fontDescription key="fontDescription" name="DINAlternate-Bold" family="DIN Alternate" pointSize="20"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="Cwe-oI-VEK"/>
                         <color key="backgroundColor" red="1" green="0.84993283569796862" blue="0.76886706132303484" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -567,6 +717,22 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="6" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="w6o-EC-3eC">
+                                <rect key="frame" x="134" y="251" width="165" height="145"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <string key="text">Grammarly
+EasyBib
+StudyPool 
+SparkNotes
+CliffNotes </string>
+                                <fontDescription key="fontDescription" name="DINAlternate-Bold" family="DIN Alternate" pointSize="24"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Screen_Shot_2022-06-30_at_9.57.55_PM-removebg-preview" translatesAutoresizingMaskIntoConstraints="NO" id="8Vx-1F-Dgl">
+                                <rect key="frame" x="14" y="134" width="451" height="414"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="gss-iR-Wui"/>
                         <color key="backgroundColor" red="0.81699173452886087" green="0.87771576748654534" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -586,7 +752,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <prototypes>
-                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" id="c8d-jd-5I2">
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="reuseIdentifier" id="c8d-jd-5I2" userLabel="reuseIdentifier">
                                 <rect key="frame" x="0.0" y="44.5" width="414" height="43.5"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="c8d-jd-5I2" id="T9i-2c-rXc">
@@ -608,7 +774,7 @@
                         </barButtonItem>
                     </navigationItem>
                     <connections>
-                        <segue destination="nex-eE-pRM" kind="show" id="Uh1-5x-6Ez"/>
+                        <segue destination="nex-eE-pRM" kind="show" identifier="moveToComplete" id="Uh1-5x-6Ez"/>
                     </connections>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="c3N-rA-R5S" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
@@ -937,8 +1103,133 @@
             </objects>
             <point key="canvasLocation" x="4083" y="741"/>
         </scene>
+        <!--Quotes View Controller-->
+        <scene sceneID="izr-cu-lb2">
+            <objects>
+                <viewController id="DX7-dx-sEY" customClass="QuotesViewController" customModule="KWK_D3_Final_Project" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Zwn-uQ-CSW">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Motivational Quotes" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fLr-Fg-POx">
+                                <rect key="frame" x="75" y="73" width="234" height="86"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.68797637381704368" green="0.89593197601010099" blue="0.87202153822794126" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <fontDescription key="fontDescription" name="BradleyHandITCTT-Bold" family="Bradley Hand" pointSize="30"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ed0-Uf-iWQ">
+                                <rect key="frame" x="85" y="239" width="215" height="31"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="filled" title="Click Me!"/>
+                                <connections>
+                                    <action selector="button:" destination="DX7-dx-sEY" eventType="touchUpInside" id="NJH-BN-r9r"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="4" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="DQ7-P6-xHJ">
+                                <rect key="frame" x="20" y="320" width="292" height="144"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="CourierNewPS-BoldItalicMT" family="Courier New" pointSize="22"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="6" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="pcg-8r-8a4">
+                                <rect key="frame" x="38" y="339" width="323" height="186"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="CourierNewPS-BoldItalicMT" family="Courier New" pointSize="22"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2kU-Gz-B5W">
+                                <rect key="frame" x="20" y="716" width="104" height="54"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="back"/>
+                                <connections>
+                                    <segue destination="nGJ-SB-5IC" kind="show" id="Eiv-ro-HIH"/>
+                                </connections>
+                            </button>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Screen_Shot_2022-06-30_at_11.07.35_PM-removebg-preview" translatesAutoresizingMaskIntoConstraints="NO" id="Req-2r-CiD">
+                                <rect key="frame" x="75" y="597" width="482" height="259"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="kFl-Lj-xUG"/>
+                        <color key="backgroundColor" red="0.88580392466268043" green="0.98628239318577926" blue="0.97569272922175521" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="mHb-KX-Phu"/>
+                    <connections>
+                        <outlet property="text" destination="pcg-8r-8a4" id="YRd-Ij-ff3"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="2J5-Ze-7Eo" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-1613.0434782608697" y="2282.8125"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="bKW-YS-rBZ">
+            <objects>
+                <viewController id="hdb-lY-aZ9" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="x7c-a4-0rM">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Motivation Tips" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Yre-9U-X6o">
+                                <rect key="frame" x="79" y="44" width="257" height="86"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" systemColor="systemYellowColor"/>
+                                <fontDescription key="fontDescription" name="BradleyHandITCTT-Bold" family="Bradley Hand" pointSize="30"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="16" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dsn-ch-GFV">
+                                <rect key="frame" x="50" y="196" width="322" height="401"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <string key="text">1. Chart Your Progress.
+2. Know Your Limits 
+3. Give It Time, Good Things  Take Time
+4. Use Failure to Motivate you to Succeed
+5. Take Action Now!
+6. Do What You Love
+7. Set Goals!
+8. Surround Yourself With Supportive People
+9. Establish A Daily Routine
+</string>
+                                <fontDescription key="fontDescription" name="AvenirNext-Regular" family="Avenir Next" pointSize="21"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Screen_Shot_2022-06-30_at_10.43.24_PM-removebg-preview" translatesAutoresizingMaskIntoConstraints="NO" id="lYa-1O-app">
+                                <rect key="frame" x="159" y="643" width="269" height="218"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="mza-Q8-Nrc">
+                                <rect key="frame" x="15" y="727" width="104" height="54"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="back"/>
+                                <connections>
+                                    <segue destination="nGJ-SB-5IC" kind="show" id="R0X-an-jUi"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="tzJ-a7-Esk"/>
+                        <color key="backgroundColor" red="0.99547487032152415" green="1" blue="0.85867214444896778" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="T4K-Jo-s1x"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="AeD-8b-Fen" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-2536.231884057971" y="2270.7589285714284"/>
+        </scene>
     </scenes>
     <inferredMetricsTieBreakers>
+        <segue reference="OMn-Ea-pu6"/>
         <segue reference="Qhr-Q6-cbZ"/>
         <segue reference="rjX-rZ-aaH"/>
     </inferredMetricsTieBreakers>
@@ -948,7 +1239,11 @@
         <image name="Ankha_animal_crossing-removebg-preview" width="345" height="724"/>
         <image name="Screen Shot 2022-06-28 at 4.54.36 PM" width="744" height="1426"/>
         <image name="Screen Shot 2022-06-28 at 7.58.27 PM" width="416" height="852"/>
-        <image name="Untitled_drawing-removebg-preview" width="577" height="433"/>
+        <image name="Screen_Shot_2022-06-30_at_10.06.14_PM-removebg-preview" width="523" height="477"/>
+        <image name="Screen_Shot_2022-06-30_at_10.39.01_PM-removebg-preview" width="473" height="528"/>
+        <image name="Screen_Shot_2022-06-30_at_10.43.24_PM-removebg-preview" width="504" height="495"/>
+        <image name="Screen_Shot_2022-06-30_at_11.07.35_PM-removebg-preview" width="186" height="176"/>
+        <image name="Screen_Shot_2022-06-30_at_9.57.55_PM-removebg-preview" width="544" height="458"/>
         <image name="appollo_animal_crossing-removebg-preview" width="197" height="256"/>
         <image name="beardo_animal_crossing-removebg-preview" width="433" height="577"/>
         <image name="cat_animal_crossing-removebg-preview (1)" width="355" height="702"/>
@@ -959,6 +1254,9 @@
         </systemColor>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+        <systemColor name="systemYellowColor">
+            <color red="1" green="0.80000000000000004" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>
     </resources>
 </document>
