@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4D3DC6D2286ED1500068DEF0 /* DayPlanViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D3DC6D1286ED1500068DEF0 /* DayPlanViewController.swift */; };
+		4D3DC6D4286ED1600068DEF0 /* WeekPlanViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D3DC6D3286ED1600068DEF0 /* WeekPlanViewController.swift */; };
 		554AE425286BF94B0012C7BA /* ToDoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 554AE424286BF94B0012C7BA /* ToDoViewController.swift */; };
 		554AE427286BF9910012C7BA /* StudyPlanViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 554AE426286BF9900012C7BA /* StudyPlanViewController.swift */; };
 		554AE429286BF9B00012C7BA /* JournalViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 554AE428286BF9B00012C7BA /* JournalViewController.swift */; };
@@ -57,6 +59,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		4D3DC6D1286ED1500068DEF0 /* DayPlanViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DayPlanViewController.swift; sourceTree = "<group>"; };
+		4D3DC6D3286ED1600068DEF0 /* WeekPlanViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeekPlanViewController.swift; sourceTree = "<group>"; };
 		554AE424286BF94B0012C7BA /* ToDoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDoViewController.swift; sourceTree = "<group>"; };
 		554AE426286BF9900012C7BA /* StudyPlanViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StudyPlanViewController.swift; sourceTree = "<group>"; };
 		554AE428286BF9B00012C7BA /* JournalViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JournalViewController.swift; sourceTree = "<group>"; };
@@ -147,6 +151,8 @@
 				690CB3D1286BB37100960F09 /* SceneDelegate.swift */,
 				690CB3D3286BB37100960F09 /* ViewController.swift */,
 				690CB3D5286BB37100960F09 /* Main.storyboard */,
+				4D3DC6D3286ED1600068DEF0 /* WeekPlanViewController.swift */,
+				4D3DC6D1286ED1500068DEF0 /* DayPlanViewController.swift */,
 				55778F89286EC20D0055384F /* QuotesViewController.swift */,
 				55778F87286EC03F0055384F /* MotivationTipsViewController.swift */,
 				55778F85286EBE6D0055384F /* TimeManagementViewController.swift */,
@@ -325,6 +331,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				554AE429286BF9B00012C7BA /* JournalViewController.swift in Sources */,
+				4D3DC6D4286ED1600068DEF0 /* WeekPlanViewController.swift in Sources */,
 				FE9E8C9D286CD25E00335D37 /* EnglishViewController.swift in Sources */,
 				690CB3D4286BB37100960F09 /* ViewController.swift in Sources */,
 				C0728803286E264A00C1F5C4 /* ToDo.swift in Sources */,
@@ -334,6 +341,7 @@
 				690CB3D0286BB37100960F09 /* AppDelegate.swift in Sources */,
 				690CB3D2286BB37100960F09 /* SceneDelegate.swift in Sources */,
 				554AE425286BF94B0012C7BA /* ToDoViewController.swift in Sources */,
+				4D3DC6D2286ED1500068DEF0 /* DayPlanViewController.swift in Sources */,
 				C0728807286E269A00C1F5C4 /* CompleteToDoViewController.swift in Sources */,
 				FE9E8C9F286CD52E00335D37 /* ScienceViewController.swift in Sources */,
 				555115B9286DFAAD0012FB55 /* NoteViewController.swift in Sources */,

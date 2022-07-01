@@ -1,0 +1,21 @@
+{
+  "images" : [
+    {
+      "filename" : "HACP_ACBA_illu03_02_R_ad-0_trans_NvBQzQNjv4BqsmSPkp2fw8_FqDhqSt3eEzmQzTQB3UhN7jGj45F1Jvw.png",
+      "idiom" : "universal",
+      "scale" : "1x"
+    },
+    {
+      "idiom" : "universal",
+      "scale" : "2x"
+    },
+    {
+      "idiom" : "universal",
+      "scale" : "3x"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  }
+}
