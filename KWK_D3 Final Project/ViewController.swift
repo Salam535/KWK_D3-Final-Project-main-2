@@ -14,5 +14,15 @@ class ViewController: UIViewController {
         // Do any additional setup after loading the view.
     }
 
+    @IBOutlet weak var textField: UITextField!
+    @IBOutlet weak var greet: UILabel!
+    
+    @IBAction func submit(_ sender: UIButton) {
+        if let newtitle = textField.text{
+            greet.text = "Hi \(newtitle)!"
+    }
+    
+    
 }
 
+}
